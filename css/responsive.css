@@ -127,7 +127,7 @@ Version:	1.1
 	height: 380px;
 }
 .schedule {
-	background: #fff;
+	background: #feca38;
 	margin: 0;
 	padding: 0;
 	height: auto;
@@ -452,14 +452,14 @@ Version:	1.1
 	margin:0;
 }
 .slicknav_nav li:hover a{
-	color:#1A76D1;
+	color:#feca38;
 }
 .slicknav_nav li .dropdown li a{
 	color:#2C2D3F;
 	background:transparent;
 }
 .slicknav_nav li .dropdown li a:hover{
-	color:#1A76D1;
+	color:#feca38;
 }
 .slicknav_nav li .slicknav_item{
 	background:transparent;
@@ -471,7 +471,7 @@ Version:	1.1
 	font-weight:400;
 }
 .slicknav_menu .slicknav_icon-bar {
-	background-color: #1A76D1;
+	background-color: #feca38;
 	box-shadow: none;
 	text-shadow: none;
 }
@@ -575,7 +575,7 @@ Version:	1.1
 	height: 380px;
 }
 .schedule {
-	background: #fff;
+	background: #feca38;
 	margin: 0;
 	padding: 0;
 	height: auto;
@@ -1063,7 +1063,7 @@ Version:	1.1
 	height: 380px;
 }
 .schedule {
-	background: #fff;
+	background: #feca38;
 	margin: 0;
 	padding: 0;
 	height: auto;

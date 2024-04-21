@@ -53,6 +53,7 @@ body{
 	font-weight: 400;
 	font-size:14px;
 	color:#888;
+	background-color: #feca38;
 }
 .pro-features {
 	position: fixed;
@@ -73,6 +74,14 @@ body{
 	-webkit-transition:all 0.4s ease;
 	-moz-transition:all 0.4s ease;
 	transition:all 0.4s ease;
+}
+.ed{
+	font-size: 17px;
+}
+.printz{
+	font-weight: 800;
+    font-size: 30px;
+    color: #feca38;
 }
 .pro-features.active{
 	right:0;
@@ -243,7 +252,7 @@ body{
 	Start Header CSS 
 =====================*/
 .header{
-	background-color:#fff;
+	background-color:#00ab6a;
 	position:relative;
 }
 .header .navbar-collapse{
@@ -251,7 +260,7 @@ body{
 }
 /* Topbar */
 .header .topbar{
-	background-color:#fff;
+	background-color:#feca38;
 	border-bottom:1px solid #eee;
 }
 .header .topbar{
@@ -273,7 +282,7 @@ body{
 	font-weight:400;
 }
 .header .top-link li:hover a{
-	color:#1A76D1;
+	color:#feca38;
 }
 .header .top-contact{
 	float:right;
@@ -290,14 +299,14 @@ body{
 	font-size:14px;
 }
 .header .top-contact li a:hover{
-	color:#1A76D1;
+	color:#feca38;
 }
 .header .top-contact li i{
-	color:#1A76D1;
+	color:#000000;
 	margin-right:8px;
 }
 .header .header-inner {
-	background:#fff;
+	background:#00ab6a;
 	z-index:999;
 	width:100%;
 }
@@ -344,7 +353,7 @@ body{
 	bottom: 0;
 	height: 3px;
 	width:0%;
-	background: #1A76D1;
+	background: #feca38;
 	border-radius: 5px 5px 0 0;
 	opacity:0;
 	visibility:hidden;
@@ -358,7 +367,7 @@ body{
 	width: 100%;
 }
 .header .nav li.active a{
-	color:#1A76D1;
+	color:#000000;
 }
 .header .nav li:hover a:before{
 	opacity:1;
@@ -366,7 +375,7 @@ body{
 	visibility:visible;
 }
 .header .nav li:hover a{
-	color:#1a76d1;
+	color:#feca38;
 }
 .header .nav li a i {
 	display: inline-block;
@@ -1133,7 +1142,7 @@ body{
 	Start Portfolio CSS
 ============================*/
 .portfolio{
-	background:#FDFDFD;
+	background:#feca38;
 }
 .portfolio .single-pf{
 	position:relative;
@@ -1615,7 +1624,7 @@ body{
 	Start Pricing Table CSS
 ===============================*/
 .pricing-table{
-	background:#f9f9f9;
+	background:#feca38;
 	position:relative;
 }
 .pricing-table .single-table {
@@ -1994,7 +2003,7 @@ body{
 	Start Blog CSS
 =========================*/
 .blog{
-	background:#fff;
+	background:#feca38;
 }
 .blog .blog-title{
 	text-align:center;
@@ -2717,7 +2726,7 @@ body{
 	Start Appointment CSS
 ============================*/
 .appointment{
-	background:#fff;
+	background:#feca38;
 	padding-top:100px;
 }
 .appointment.single-page {
