@@ -665,7 +665,7 @@ body{
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
-	background: #00ab6a;
+	background:transparent;
 	color: #fff;
 	font-size: 26px;
 	position: absolute;
@@ -677,7 +677,7 @@ body{
 	border-radius: 50%;
 }
 .slider .owl-carousel .owl-nav div:hover{
-	background:#2C2D3F;
+	background:#00ab6a;
 	color:#fff;
 }
 .slider .owl-carousel .owl-controls .owl-nav .owl-prev{
@@ -776,6 +776,8 @@ body{
 .schedule .single-schedule span{
 	display:block;
 	color:#fff;
+	font-weight: 600;
+    font-size: large;
 }
 .schedule .single-schedule h4{
 	font-size: 20px;
