@@ -136,7 +136,7 @@ body{
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
-	background: #1a76d1;
+	background: #000000;
 	color: #fff;
 	font-size: 25px;
 	width: 45px;
@@ -514,7 +514,7 @@ body{
 	width: 35px;
 	line-height: 35px;
 	text-align: center;
-	background: #1a76d1;
+	background: #000000;
 	border-radius: 4px;
 	display: block;
 	font-size: 12px;
@@ -708,7 +708,7 @@ body{
 	background: #fff;
 	margin: 0;
 	padding: 0;
-	height: 230px;
+	height: 314px;
 }
 .schedule .schedule-inner {
 	position: relative;
@@ -726,6 +726,7 @@ body{
     -ms-transition: all .3s ease-out 0s;
     -o-transition: all .3s ease-out 0s;
     transition: all .3s ease-out 0s;
+	height: 314px;
 }
 .schedule .single-schedule .inner {
 	overflow:hidden;
@@ -775,7 +776,7 @@ body{
 }
 .schedule .single-schedule span{
 	display:block;
-	color:#fff;
+	color:#000000;
 	font-weight: 600;
     font-size: large;
 }
@@ -784,15 +785,15 @@ body{
 	font-weight:600;
 	display:inline-block;
 	text-transform:capitalize;
-	color:#fff;
+	color:#000000;
 	margin-top:13px;
 }
 .schedule .single-schedule p{
-	color:#fff;
+	color:#000000;
 	margin-top:22px;
 }
 .schedule .single-schedule a {
-	color: #fff;
+	color: #000000;
 	margin-top: 25px;
 	font-weight: 500;
 	display: inline-block;
@@ -868,7 +869,7 @@ body{
 	right: -72px;
 	top: 60px;
 	width: 118px;
-	border-bottom: 3px dotted #1a76d1;
+	border-bottom: 3px dotted #000000;
 }
 .Feautes .single-features.last::before{
 	display:none;
@@ -878,7 +879,7 @@ body{
 }
 .Feautes .single-features .signle-icon i{
 	font-size:50px;
-	color:#1a76d1;
+	color:#000000;
 	position:absolute;
 	left:50%;
 	margin-left:-50px;
@@ -894,7 +895,7 @@ body{
 	transition:all 0.4s ease;
 }
 .Feautes .single-features:hover .signle-icon i{
-	background:#1A76D1;
+	background:#00ab6a;
 	color:#fff;
 	border-color:transparent;
 }
@@ -921,10 +922,21 @@ body{
 	padding:120px 0;
 }
 .fun-facts{
-	background:url('img/fun-bg.jpg');
 	background-size:cover;
 	background-repeat:no-repeat;
 }
+@media screen and (min-width: 1024px) {
+	.small-details {
+	  margin-left: 30em;
+	}
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+	.fun- {
+	  margin-left: 5.9em;
+	}
+  }
+  
+  
 .fun-facts .single-fun {
 	
 }
@@ -932,7 +944,7 @@ body{
 	position: absolute;
 	left: 0;
 	font-size: 62px;
-	color: #fff;
+	color: #000000;
 	height: 70px;
 	width: 70px;
 	line-height: 67px;
@@ -940,7 +952,7 @@ body{
 	text-align: center;
 	padding: 0;
 	margin: 0;
-	border: 2px solid #fff;
+	border: 2px solid #000000;
 	border-radius: 0px;
 	top: 50%;
 	margin-top: -35px;
@@ -950,8 +962,8 @@ body{
 	border-radius: 50%;
 }
 .fun-facts .single-fun:hover i{
-	color:#1A76D1;
-	background:#fff;
+	color:#00ab6a;
+	background:#000000;
 	border-color:transparent;
 }
 .fun-facts .single-fun .content {
@@ -995,7 +1007,7 @@ body{
 	bottom:0;
 	height:2px;
 	width:50px;
-	background:#1a76d1;
+	background:#000000;
 }
 .why-choose .choose-left p{
 	margin-bottom:35px;
@@ -1013,7 +1025,7 @@ body{
 	width:15px;
 	line-height:15px;
 	text-align:center;
-	background:#1a76d1;
+	background:#000000;
 	color:#fff;
 	font-size:14px;
 	border-radius:100%;
@@ -1046,7 +1058,7 @@ body{
 	margin-left: -35px;
 	margin-top: -35px;
 	font-size: 21px;
-	background: #1a76d1;
+	background: #000000;
 	padding-left: 4px;
 }
 .why-choose .choose-right .video:hover{
@@ -1113,7 +1125,7 @@ body{
 	margin-right:20px;
 	font-weight:500;
 	border:1px solid #fff;
-	color:#1a76d1;
+	color:#000000;
 }
 .call-action .content .btn:before{
 	background:#1A76D1;
@@ -1166,7 +1178,7 @@ body{
 	top:0;
 	height:100%;
 	width:100%;
-	background:#1a76d1;
+	background:#000000;
 	opacity:0;
 	visibility:hidden;
 	-webkit-transition:all 0.4s ease;
@@ -1179,7 +1191,7 @@ body{
 	visibility:visible;
 }
 .portfolio .single-pf .btn {
-	color: #1a76d1;
+	color: #000000;
 	z-index: 3;
 	background: #fff;
 	position: absolute;
@@ -1254,7 +1266,7 @@ body{
 	width:100%;
 }
 .pf-details .date{
-	background: #1a76d1;
+	background: #000000;
 	display: block;
 	padding: 20px;
 	text-align: center;
@@ -1335,7 +1347,7 @@ body{
 }
 .services .single-service i{
 	font-size:45px;
-	color:#1a76d1;
+	color:#000000;
 	position:absolute;
 	left:0;
 	-webkit-transition:all 0.4s ease;
@@ -1378,7 +1390,7 @@ body{
 .services-details-img blockquote {
 	font-size: 15px;
 	color: #4a6f8a;
-	background-color: #1a76d1;
+	background-color: #000000;
 	padding: 30px 75px;
 	line-height: 26px;
 	position: relative;
@@ -1412,7 +1424,7 @@ body{
 	font-weight: 600;
 	font-size: 30px;
 	margin-bottom: 15px;
-	border-left: 3px solid #1a76d1;
+	border-left: 3px solid #000000;
 	padding-left: 15px;
 }
 .service-details-inner p {
@@ -1536,7 +1548,7 @@ body{
 	background:transparent;
 }
 .departments .department-tab .nav li a.active i{
-	color:#1a76d1;
+	color:#000000;
 }
 .departments .department-tab .nav li a {
 	color: #fff;
@@ -1548,7 +1560,7 @@ body{
 	padding:0 10px 20px 10px;
 }
 .departments .department-tab .nav li a.active{
-	border-color:#1a76d1;
+	border-color:#000000;
 }
 .departments .department-tab .nav li span{
 	display:block;
@@ -1587,7 +1599,7 @@ body{
 	background:#2C2D3F;
 }
 .departments .department-tab .tab-pane .department-left .p1 {
-	color: #1a76d1;
+	color: #000000;
 	font-weight: 500;
 	margin-bottom: 18px;
 }
@@ -1610,7 +1622,7 @@ body{
 	width: 15px;
 	line-height: 15px;
 	color: #fff;
-	background: #1a76d1;
+	background: #000000;
 	text-align: center;
 	border-radius: 100%;
 	font-size: 8px;
@@ -1650,7 +1662,7 @@ body{
 }
 .pricing-table .single-table .icon i{
 	font-size:65px;
-	color:#1a76d1;
+	color:#000000;
 }
 .pricing-table .single-table .title {
 	font-size: 21px;
@@ -1661,7 +1673,7 @@ body{
 .pricing-table .single-table .amount {
 	font-size:36px;
 	font-weight:600;
-	color:#1a76d1;
+	color:#000000;
 }
 .pricing-table .single-table .amount span{
 	display:inline-block;
@@ -1700,7 +1712,7 @@ body{
 	line-height: 16px;
 	text-align: center;
 	color: #fff;
-	background: #1a76d1;
+	background: #000000;
 	border-radius: 100%;
 	padding-left: 1px;
 }
@@ -3394,7 +3406,7 @@ body{
 	margin-top:50px;
 }
 .contact-us .single-info {
-	background: #1a76d1;
+	background: #000000;
 	padding: 40px 60px;
 	height: 150px;
 	border-radius: 10px;

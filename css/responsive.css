@@ -53,11 +53,15 @@ Version:	1.1
 .header .top-contact li a{
 	font-size:13px;
 }
+.top-contact{
+	margin-left: -11em;
+}
 .header .top-contact li {
 	display: inline-block;
 	margin-right: 25px;
 	color: #2C2D3F;
 	font-size: 13px;
+	margin-left: -8px;
 }
 .header .header-inner .get-quote {
 	margin-top: 12px;
@@ -1118,6 +1122,8 @@ Version:	1.1
 	height:80px;
 	width: 80px;
 	line-height: 80px;
+	
+	
 }
 .Feautes .single-features::before {
 	display:none;
