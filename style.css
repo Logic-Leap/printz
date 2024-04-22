@@ -604,6 +604,9 @@ body{
 	background-position: center;
 	background-repeat:no-repeat;
 }
+.cl{
+	color: #00ab6a;
+}
 .slider .single-slider .text{
 	margin-top:120px;
 }
@@ -619,7 +622,7 @@ body{
 	line-height: 42px;
 }
 .slider .single-slider h1 span{
-	color:#1a76d1;
+	color:#00ab6a;
 }
 .slider .single-slider p {
 	color: #2C2D3F;
@@ -631,11 +634,14 @@ body{
 }
 .slider .single-slider .btn{
 	color:#fff;
-	background:#1a76d1;
+	background:#000000;
 	font-weight:500;
 	display:inline-block;
 	margin:0;
 	margin-right:10px;
+}
+.slider .single-slider .btn:before{
+	background-color: #00ab6a !important;
 }
 .slider .single-slider .btn:last-child{
 	margin:0;
@@ -645,7 +651,7 @@ body{
 	color:#fff;
 }
 .slider .single-slider .btn.primary:before{
-	background:#1A76D1;
+	background:#00ab6a;
 }
 .slider .owl-carousel .owl-nav {
 	margin: 0;
@@ -659,7 +665,7 @@ body{
 	width: 50px;
 	line-height: 50px;
 	text-align: center;
-	background: #1A76D1;
+	background: #00ab6a;
 	color: #fff;
 	font-size: 26px;
 	position: absolute;
