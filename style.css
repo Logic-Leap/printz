@@ -55,6 +55,9 @@ body{
 	color:#888;
 	background-color: #feca38;
 }
+.single-{
+	
+}
 .pro-features {
 	position: fixed;
 	right: -300px;
@@ -1099,7 +1102,7 @@ body{
 	Start Call to action CSS
 =================================*/
 .call-action{
-	background: black;
+	background: #00ab6a;
 	background-size:cover;
 	background-position:center;
 	position:relative;
@@ -1110,29 +1113,41 @@ body{
 	padding:100px 265px;
 }
 .call-action .content h2{
-	color:#fff;
+	color:#000000;
 	font-size:32px;
 	font-weight:600;
 	line-height:46px;
 }
 .call-action .content p {
-	color: #fff;
+	color: #000000;
 	margin: 30px 0px;
 	font-size: 15px;
 }
+/* @media screen and (max-width: 767px) {
+	.mob {
+	  height: 229px;
+	}
+  }
+  @media screen and (min-width: 768px) and (max-width: 1023px) {
+	.portfolio.single-pf{
+	  height: 362px;
+	}
+  }
+   */
+  
 .call-action .content .btn{
-	background:#fff;
+	background:#feca38;
 	margin-right:20px;
 	font-weight:500;
 	border:1px solid #fff;
 	color:#000000;
 }
 .call-action .content .btn:before{
-	background:#1A76D1;
+	background:#00ab6a;
 }
 .call-action .content .btn:hover{
-	background:#1A76D1;
-	color:#fff;
+	background:#000000;
+	color:#000000;
 }
 .call-action .content .btn:last-child{
 	margin-right:0px;
@@ -1168,7 +1183,7 @@ body{
 	position:relative;
 }
 .portfolio .single-pf img{
-	height:100%;
+	height: 91%;
 	width:100%;
 }
 .portfolio .single-pf:before{
