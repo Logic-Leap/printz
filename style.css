@@ -782,7 +782,13 @@ body{
 .schedule .single-schedule:hover{
 	transform: translateY(-5px);
 }
-.schedule .single-schedule .icon i{
+@media screen and (min-width: 1024px) {
+	.schedule {
+	  margin-top: 20em;
+	}
+  }
+  
+.schedule .single-schedule .icon svg{
 	position: absolute;
 	font-size: 110px;
 	color: #fff;
@@ -2868,10 +2874,11 @@ body{
 	font-weight:400;
 }
 .appointment .form-group .list li:hover {
-	color:#fff;
-	background: #1A76D1;
+	color:#000000;
+	background: #00ab6a;
+	transition: 0.4 ease;
 }
-.appointment .appointment-image{}
+
 .appointment.single-page .button .btn{
 	width:100%;
 }
@@ -2879,14 +2886,15 @@ body{
 	font-weight:500;
 }
 .appointment .button .btn:hover{
-	color:#fff;
+	color:#000000;
+	transition: 0.4 ease;
 }
 .appointment .form p{
 	margin-top: 10px;
 	color:#868686;
 }
 .appointment.single-page .work-hour{
-	background:#1A76D1;
+	background:#00ab6a;
 	padding: 40px;
 	box-shadow: 0px 0px 10px #00000024;
 	border-radius: 5px;
@@ -3341,7 +3349,7 @@ body{
 	bottom:0;
 	height:2px;
 	width:50px;
-	background:#1A76D1;
+	background:#00ab6a;
 }
 .contact-us .contact-us-form p {
 	font-size: 14px;
@@ -3387,13 +3395,15 @@ body{
 .contact-us .form .btn {
 	display: inline-block;
 	margin-right: 10px;
-	color: #fff;
+	color: #000000;
 	line-height: 20px;
 	width:100%;
+	background-color: #00ab6a;
 }
 .contact-us .form .btn:hover{
-	background:#1A76D1;
-	color:#fff;
+	background:#0000;
+	color:#ffffff;
+
 }
 .contact-us .contact-us-form .checkbox {
 	text-align: left;
@@ -3422,7 +3432,7 @@ body{
 	top: 5px;
 	width: 15px;
 	height: 15px;
-	border: 1px solid #1A76D1;
+	border: 1px solid #000000;
 	border-radius: 100%;
 }
 .contact-us .contact-us-form .checkbox label::after {
@@ -3473,7 +3483,7 @@ body{
     margin: 0 auto;
     width: 80%;
     height: 90%;
-    background:#1A76D1;
+    
     opacity: 0;
     filter: blur(10px);
     -webkit-transition: all .3s ease-out 0s;
