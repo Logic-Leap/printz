@@ -4947,12 +4947,13 @@ body {
 }
 
 .footer .copyright .copyright-content p a {
-	color: #181285;
+	color: #000000;
 	font-weight: 400;
 	text-decoration: underline;
 	display: inline-block;
 	margin-left: 4px;
 }
+
 
 /*=========================
 	End Footer CSS
