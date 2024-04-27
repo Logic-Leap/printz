@@ -2458,7 +2458,8 @@ body {
 	opacity: 1;
 	visibility: visible;
 	width: 100%;
-	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+	
 }
 
 .blog .single-news .news-body h2 {
@@ -4021,7 +4022,7 @@ body {
 	transition: all 0.4s ease;
 	display: block;
 	font-size: 9px;
-	background: #1A76D1;
+	background: #00ab6a;
 	border-radius: 100%;
 }
 
