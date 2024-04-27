@@ -828,6 +828,43 @@ body {
 .owl-item.active .single-slider h1 {
 	animation: fadeInUp 1s both 0.6s;
 }
+div.single-news.flag-image.graphics{
+	animation: fadeInUp 1s both 1s;
+}
+div.single-news.flag-image.offset{
+	animation: fadeInUp 1s both 1.5s;
+
+}
+div.single-news.flag-image.gift{
+	animation: fadeInUp 1s both 2s;
+}
+div.single-news.flag-image.flag{
+	animation: fadeInUp 1s both 2.5s;
+}
+div.single-news.flag-image.roll{
+	animation: fadeInUp 1s both 3s;
+}
+div.single-news.flag-image.wall{
+	animation: fadeInUp 1s both 3.5s;
+}
+div.single-news.flag-image.window{
+	animation: fadeInUp 1s both 4s;
+}
+div.single-news.flag-image.ex{
+	animation: fadeInUp 1s both 4.5s;
+}
+div.single-news.flag-image.d{
+	animation: fadeInUp 1s both 5s;
+}
+div.single-news.flag-image.hoar{
+	animation: fadeInUp 1s both 5.5s;
+}
+div.single-news.flag-image.veh{
+	animation: fadeInUp 1s both 6s;
+}
+div.single-news.flag-image.fd{
+	animation: fadeInUp 1s both 6.5s;
+}
 
 .owl-item.active .single-slider p {
 	animation: fadeInUp 1s both 1s;
@@ -869,6 +906,7 @@ body {
 	-o-transition: all .3s ease-out 0s;
 	transition: all .3s ease-out 0s;
 	height: 314px;
+	animation: fadeInUp 1s both 1s;
 }
 
 .image-border {
@@ -2436,7 +2474,7 @@ body {
 	position: relative;
 	padding: 30px;
 	left: 0;
-	z-index: 0;
+	z-index: ;
 }
 
 .blog .single-news .news-content:before {
@@ -2455,9 +2493,10 @@ body {
 }
 
 .blog .single-news:hover .news-content:before {
-	opacity: 1;
+	opacity: 4;
 	visibility: visible;
 	width: 100%;
+
 
 	
 }
