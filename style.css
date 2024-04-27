@@ -831,7 +831,7 @@ body {
 div.single-news.flag-image.graphics{
 	animation: fadeInUp 1s both 1s;
 }
-div.single-news.flag-image.offset{
+/* div.single-news.flag-image.offset{
 	animation: fadeInUp 1s both 1.5s;
 
 }
@@ -864,7 +864,7 @@ div.single-news.flag-image.veh{
 }
 div.single-news.flag-image.fd{
 	animation: fadeInUp 1s both 6.5s;
-}
+} */
 
 .owl-item.active .single-slider p {
 	animation: fadeInUp 1s both 1s;
