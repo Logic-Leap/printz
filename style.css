@@ -65,68 +65,10 @@ body {
 		width: 30em;
 	}
 
-	.sec-1 {
-		margin-left: -244px;
-	}
-
-	.sec-2 {
-		margin-left: -7em;
-	}
-
-	.sec-3 {
-		margin-left: 6em;
-	}
-
-	.sec-4 {
-		margin-left: -243px;
-	}
-
-	.sec-6 {
-		margin-left: -7em;
-	}
-
-	.sec-7 {
-		margin-left: 87px;
-	}
-
-	.sec8 {
-		margin-left: -244px;
-	}
-
-	.sec-9 {
-		margin-left: -7em;
-	}
-
-	.sec-10 {
-		margin-left: 6em;
-	}
-
-	.sec-11 {
-		margin-left: -243px;
-	}
-
-	.sec-12 {
-		margin-left: -7em;
-	}
-
-	.sec-13 {
-		margin-left: 87px;
+	.card-align {
+		margin-left: 22em;
 	}
 }
-
-@media screen and (max-width: 1023px) {
-	#blog {
-		margin-left: -19em;
-	}
-
-	
-}
-
-
-.card-align {
-	margin-left: 22em;
-}
-
 
 .single-news {
 	border-radius: 15px;
@@ -226,7 +168,7 @@ body {
 
 .get-pro:hover {}
 
-#scrollUp {
+/* #scrollUp {
 	bottom: 15px;
 	right: 15px;
 	padding: 10px 20px;
@@ -244,7 +186,7 @@ body {
 
 #scrollUp:hover {
 	background: #2C2D3F;
-}
+} */
 
 /* Color Plate */
 .color-plate {
@@ -886,18 +828,9 @@ body {
 .owl-item.active .single-slider h1 {
 	animation: fadeInUp 1s both 0.6s;
 }
-
-.sec-1.animate {
-	transform: translate(-100%);
+div.single-news.flag-image.graphics{
+	animation: fadeInUp 1s both 1s;
 }
-
-.sec-1.show-animate.animate {
-	transform: translate(-100%);
-}
-
-/* div.single-news.flag-image.graphics{
-	animation: zoomin 1s both 1s;
-} */
 /* div.single-news.flag-image.offset{
 	animation: fadeInUp 1s both 1.5s;
 
@@ -2565,7 +2498,7 @@ div.single-news.flag-image.fd{
 	width: 100%;
 
 
-
+	
 }
 
 .blog .single-news .news-body h2 {
