@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js" lang="zxx">
+<html  lang="zxx">
     <head>
         <!-- Meta Tags -->
 		<meta charset="utf-8">
@@ -41,6 +41,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="style.css">
         <link rel="stylesheet" href="css/responsive.css">
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 		
     </head>
     <body>
@@ -234,7 +235,7 @@
 		<div class="container card-align" style="margin-top: -7em;">
 			<div class="row">
 				<div class="col-lg-6 col-md-6 col-12">
-					<div class="single-news">
+					<div class="single-news" data-aos="zoom-in">
 						<div class="news-head">
 							<img style="height: 281px;" src="img/Title-Image-4_80465274aebb5.jpg" alt="#">
 						</div>
@@ -250,7 +251,7 @@
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-6 col-12">
-					<div class="single-news">
+					<div class="single-news" >
 						<div class="news-head">
 							<img style="height: 281px;" src="img/digg.jpg" alt="#">
 						</div>
@@ -585,5 +586,9 @@
 		<script src="js/bootstrap.min.js"></script>
 		<!-- Main JS -->
 		<script src="js/main.js"></script>
+		<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init();
+	</script>
     </body>
 </html>

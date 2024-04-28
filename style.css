@@ -829,9 +829,7 @@ body {
 .owl-item.active .single-slider h1 {
 	animation: fadeInUp 1s both 0.6s;
 }
-div.single-news.flag-image.graphics{
-	animation: fadeInUp 1s both 1s;
-}
+
 /* div.single-news.flag-image.offset{
 	animation: fadeInUp 1s both 1.5s;
 
