@@ -166,6 +166,7 @@ body {
 	box-shadow: -4px 0px 5px #00000036;
 }
 
+
 .get-pro:hover {}
 
 /* #scrollUp {
@@ -4993,6 +4994,13 @@ div.single-news.flag-image.fd{
 	display: inline-block;
 	margin-left: 4px;
 }
+@media screen and (max-width: 450px) {
+	.single-news {
+	  margin-left: auto;
+	  margin-right: auto;
+	}
+  }
+  
 
 
 /*=========================
